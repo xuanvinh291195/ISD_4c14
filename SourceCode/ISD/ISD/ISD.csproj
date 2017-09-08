@@ -204,6 +204,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\AccountManagement\AccountManagementAreaRegistration.cs" />
+    <Compile Include="Areas\BillManagement\BillManagementAreaRegistration.cs" />
+    <Compile Include="Areas\CategoryManagement\CategoryManagementAreaRegistration.cs" />
+    <Compile Include="Areas\LogManagement\LogManagementAreaRegistration.cs" />
+    <Compile Include="Areas\ProductManagement\ProductManagementAreaRegistration.cs" />
+    <Compile Include="Areas\SalesManagement\SalesManagementAreaRegistration.cs" />
     <Compile Include="CommonEntity\RespondingObject.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -233,6 +239,12 @@
     </Content>
     <Content Include="Content\toastr.less" />
     <Content Include="Content\toastr.scss" />
+    <Content Include="Areas\AccountManagement\Views\web.config" />
+    <Content Include="Areas\BillManagement\Views\web.config" />
+    <Content Include="Areas\CategoryManagement\Views\web.config" />
+    <Content Include="Areas\ProductManagement\Views\web.config" />
+    <Content Include="Areas\LogManagement\Views\web.config" />
+    <Content Include="Areas\SalesManagement\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\common.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -265,7 +277,24 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\" />
+    <Folder Include="Areas\AccountManagement\Controllers\" />
+    <Folder Include="Areas\AccountManagement\Models\" />
+    <Folder Include="Areas\AccountManagement\Views\Shared\" />
+    <Folder Include="Areas\BillManagement\Controllers\" />
+    <Folder Include="Areas\BillManagement\Models\" />
+    <Folder Include="Areas\BillManagement\Views\Shared\" />
+    <Folder Include="Areas\CategoryManagement\Controllers\" />
+    <Folder Include="Areas\CategoryManagement\Models\" />
+    <Folder Include="Areas\CategoryManagement\Views\Shared\" />
+    <Folder Include="Areas\LogManagement\Controllers\" />
+    <Folder Include="Areas\LogManagement\Models\" />
+    <Folder Include="Areas\LogManagement\Views\Shared\" />
+    <Folder Include="Areas\ProductManagement\Controllers\" />
+    <Folder Include="Areas\ProductManagement\Models\" />
+    <Folder Include="Areas\ProductManagement\Views\Shared\" />
+    <Folder Include="Areas\SalesManagement\Controllers\" />
+    <Folder Include="Areas\SalesManagement\Models\" />
+    <Folder Include="Areas\SalesManagement\Views\Shared\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
